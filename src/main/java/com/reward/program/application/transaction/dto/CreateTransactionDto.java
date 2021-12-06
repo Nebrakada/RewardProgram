@@ -1,7 +1,5 @@
 package com.reward.program.application.transaction.dto;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.reward.program.application.customer.Customer;
 import com.reward.program.application.transaction.Transaction;
 import lombok.*;
 

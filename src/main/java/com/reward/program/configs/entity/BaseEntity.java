@@ -6,7 +6,6 @@ import lombok.experimental.SuperBuilder;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
-import javax.persistence.Version;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -19,7 +18,4 @@ public class BaseEntity {
   @Id
   @GeneratedValue
   protected Long id;
-
-  @Version
-  protected Integer version;
 }

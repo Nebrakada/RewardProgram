@@ -4,7 +4,6 @@ import com.reward.program.application.customer.Customer;
 import com.reward.program.application.customer.CustomerRepository;
 import com.reward.program.application.exception.TransactionServiceException;
 import com.reward.program.application.transaction.dto.*;
-import com.reward.program.configs.validator.ValidatorException;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

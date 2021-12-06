@@ -17,8 +17,10 @@ points earned for each customer per month and total.
 * I have on purpose used custom-made validation instead of build-in Spring/Hibernate @Valid and BindingResult option
 * package names are simplified instead of going full DDD/feature naming or going different modules for each section, but it should be easy to divide them if needed
 * there are unit tests and e2e / controller tests in test packages
-* Swagger/OpenAPI can be accessed by URL:  `http://localhost:8080/swagger-ui.html`
 * you can access H2 console on `http://localhost:8080/h2`
+* Swagger/OpenAPI can be accessed by URL:  `http://localhost:8080/swagger-ui.html`
+  - there are 2 customers with ID 1 and 2 to browse transactions and calculate rewards points
+  - there are several transactions with IDs starting from 1 to 10
 
 **to run the app**
 * make sure you have both maven and java 11+ installed and configured
