@@ -1,0 +1,20 @@
+package com.reward.program.application.transaction.dto;
+
+import com.reward.program.application.customer.Customer;
+import lombok.*;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@ToString
+public class UpdateTransactionDto {
+  private Long id;
+  private BigDecimal price;
+  private LocalDate date;
+  private Customer customer;
+
+}
